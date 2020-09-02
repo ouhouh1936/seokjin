@@ -1,0 +1,31 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: row;
+}
+.app .app__col1 {
+  width: 10%;
+  height: 100%;
+  background-color: aquamarine;
+}
+.app .app__col2 {
+  width: 90%;
+  height: 100%;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+}
+.app .app__col2 .app__col2__top {
+  width: 100%;
+  height: 9%;
+  background-color: blue;
+}
+.app .app__col2 .app__col2__bottom {
+  width: 100%;
+  height: 91%;
+  background-color: blueviolet;
+}
